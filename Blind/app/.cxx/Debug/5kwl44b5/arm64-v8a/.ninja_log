@@ -1,0 +1,17 @@
+# ninja log v5
+1	1576	786193371	CMakeFiles/yolo_jni.dir/yolo_jni.cpp.o	8a520e29fea163de
+7	1888	786193371	CMakeFiles/yolo_jni.dir/yolo.cpp.o	7c606be31e561a73
+1888	2218	786193372	E:/AndroidProject/Blind/app/build/intermediates/cxx/Debug/5kwl44b5/obj/arm64-v8a/libyolo_jni.so	a9c5330881baf737
+1	10	0	clean	8bd0285432c335a7
+10	1459	786194251	CMakeFiles/yolo_jni.dir/yolo_jni.cpp.o	8a520e29fea163de
+16	1806	786194252	CMakeFiles/yolo_jni.dir/yolo.cpp.o	7c606be31e561a73
+1806	1999	786194252	E:/AndroidProject/Blind/app/build/intermediates/cxx/Debug/5kwl44b5/obj/arm64-v8a/libyolo_jni.so	a9c5330881baf737
+0	10	0	clean	8bd0285432c335a7
+8	1437	787508110	CMakeFiles/yolo_jni.dir/yolo_jni.cpp.o	8a520e29fea163de
+13	1839	787508111	CMakeFiles/yolo_jni.dir/yolo.cpp.o	7c606be31e561a73
+1839	2202	787508111	E:/AndroidProject/Blind/app/build/intermediates/cxx/Debug/5kwl44b5/obj/arm64-v8a/libyolo_jni.so	a9c5330881baf737
+0	10	0	clean	8bd0285432c335a7
+0	10	0	clean	8bd0285432c335a7
+9	1353	787510661	CMakeFiles/yolo_jni.dir/yolo_jni.cpp.o	8a520e29fea163de
+14	1689	787510662	CMakeFiles/yolo_jni.dir/yolo.cpp.o	7c606be31e561a73
+1689	1870	787510662	E:/AndroidProject/Blind/app/build/intermediates/cxx/Debug/5kwl44b5/obj/arm64-v8a/libyolo_jni.so	a9c5330881baf737

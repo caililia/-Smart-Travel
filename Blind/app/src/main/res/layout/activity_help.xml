@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    android:padding="16dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="使用帮助"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center_vertical"/>
+
+    <!-- 帮助内容展示 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvHelpContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="#333333"
+            android:padding="8dp"/>
+    </ScrollView>
+
+    <!-- 语音状态提示 -->
+    <TextView
+        android:id="@+id/tvVoiceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小黎：准备为您朗读帮助内容..."
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginVertical="16dp"/>
+
+</LinearLayout>

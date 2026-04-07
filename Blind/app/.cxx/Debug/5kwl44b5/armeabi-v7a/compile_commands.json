@@ -1,0 +1,13 @@
+[
+{
+  "directory": "E:/AndroidProject/Blind/app/.cxx/Debug/5kwl44b5/armeabi-v7a",
+  "command": "C:\\Users\\11936\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi26 --sysroot=C:/Users/11936/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolo_jni_EXPORTS -isystem E:/AndroidProject/Blind/app/src/main/jni/ncnn/ncnn-20231027-android-vulkan/armeabi-v7a/include/ncnn -isystem E:/AndroidProject/Blind/app/src/main/jni/ncnn/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolo_jni.dir\\yolo_jni.cpp.o -c E:\\AndroidProject\\Blind\\app\\src\\main\\jni\\ncnn\\yolo_jni.cpp",
+  "file": "E:\\AndroidProject\\Blind\\app\\src\\main\\jni\\ncnn\\yolo_jni.cpp"
+},
+
+{
+  "directory": "E:/AndroidProject/Blind/app/.cxx/Debug/5kwl44b5/armeabi-v7a",
+  "command": "C:\\Users\\11936\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi26 --sysroot=C:/Users/11936/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolo_jni_EXPORTS -isystem E:/AndroidProject/Blind/app/src/main/jni/ncnn/ncnn-20231027-android-vulkan/armeabi-v7a/include/ncnn -isystem E:/AndroidProject/Blind/app/src/main/jni/ncnn/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolo_jni.dir\\yolo.cpp.o -c E:\\AndroidProject\\Blind\\app\\src\\main\\jni\\ncnn\\yolo.cpp",
+  "file": "E:\\AndroidProject\\Blind\\app\\src\\main\\jni\\ncnn\\yolo.cpp"
+}
+]

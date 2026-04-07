@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="personal_page_padding">12dp</dimen>
+    <dimen name="user_info_padding">12dp</dimen>
+    <dimen name="avatar_text_margin">12dp</dimen>
+    <dimen name="user_phone_text_size">18sp</dimen>  <!-- 文字放大，避免看不清 -->
+    <dimen name="login_status_text_size">16sp</dimen>
+    <dimen name="core_btn_text_size">18sp</dimen>
+    <dimen name="aux_btn_text_size">17sp</dimen>
+    <dimen name="status_margin_top">6dp</dimen>
+    <dimen name="core_btn_margin">12dp</dimen>  <!-- 减小按钮间距，节省空间 -->
+    <dimen name="aux_btn_margin">8dp</dimen>
+</resources>

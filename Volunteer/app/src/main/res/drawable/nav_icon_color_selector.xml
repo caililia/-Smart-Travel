@@ -1,0 +1,5 @@
+<!-- nav_icon_color_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#40A9FF" android:state_checked="true"/>  <!-- 选中时蓝色 -->
+    <item android:color="@android:color/darker_gray" android:state_checked="false"/>  <!-- 未选中时灰色 -->
+</selector>

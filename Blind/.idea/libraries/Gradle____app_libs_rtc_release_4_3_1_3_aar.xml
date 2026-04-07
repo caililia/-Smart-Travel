@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/rtc-release-4.3.1.3.aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../repository-Maven/caches/transforms-3/a2c256f90ee86ba6d12de86a2e344b3e/transformed/jetified-rtc-release-4.3.1.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../repository-Maven/caches/transforms-3/a2c256f90ee86ba6d12de86a2e344b3e/transformed/jetified-rtc-release-4.3.1.3/res" />
+      <root url="file://$PROJECT_DIR$/../../repository-Maven/caches/transforms-3/a2c256f90ee86ba6d12de86a2e344b3e/transformed/jetified-rtc-release-4.3.1.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

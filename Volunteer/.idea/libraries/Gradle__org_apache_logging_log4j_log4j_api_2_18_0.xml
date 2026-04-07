@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.logging.log4j:log4j-api:2.18.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../repository-Maven/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.18.0/c72ad9b1d8d42e4ea7befd8248bf05877af4c63d/log4j-api-2.18.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../repository-Maven/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.18.0/3110a31b7b1e296ae05ef0e2213036b0e7c3116b/log4j-api-2.18.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../repository-Maven/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.18.0/845edf95920650e45e2636b47848a13064d22006/log4j-api-2.18.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

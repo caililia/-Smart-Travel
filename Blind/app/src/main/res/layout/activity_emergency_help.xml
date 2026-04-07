@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8FAFC"
+    android:padding="20dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="紧急求助"
+        android:textSize="28sp"
+        android:textColor="#B91C1C"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- 跌倒信息卡片 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跌倒信息"
+            android:textSize="18sp"
+            android:textColor="#0F172A"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_fall_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跌倒时间: \n撞击力度: \n身体倾斜: "
+            android:textSize="16sp"
+            android:textColor="#334155"
+            android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+
+    <!-- 操作按钮 -->
+    <Button
+        android:id="@+id/btn_call_emergency"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="拨打紧急电话"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="发送紧急短信"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="返回"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

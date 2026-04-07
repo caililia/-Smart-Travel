@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\AndroidProject\\Blind\\app\\src\\main\\jni\\ncnn\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\11936\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\AndroidProject\\Blind\\app\\.cxx\\Debug\\5kwl44b5\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\11936\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\AndroidProject\\Blind\\app\\.cxx\\Debug\\5kwl44b5\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolo_jni-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\11936\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidProject\\Blind\\app\\.cxx\\Debug\\5kwl44b5\\armeabi-v7a",
+        "yolo_jni"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "yolo_jni",
+      "output": "E:\\AndroidProject\\Blind\\app\\build\\intermediates\\cxx\\Debug\\5kwl44b5\\obj\\armeabi-v7a\\libyolo_jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <!-- 摄像头预览 - 全屏显示 -->
+    <SurfaceView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 顶部状态栏 - 显示识别状态 -->
+    <LinearLayout
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#80000000"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="● 待命中"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- 语音指令反馈浮层 - 居中显示 -->
+    <LinearLayout
+        android:id="@+id/voice_feedback_panel"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#DD000000"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:elevation="8dp"
+        android:alpha="0.95"
+        android:radius="16dp">
+
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/voice_command_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="识别到语音指令"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 用户指令内容 -->
+        <TextView
+            android:id="@+id/voice_command_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="“前面有什么”"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 分隔线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFA500"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 分析状态 -->
+        <TextView
+            android:id="@+id/analysis_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:text="正在分析环境..."
+            android:layout_marginBottom="12dp" />
+
+        <!-- 加载进度条 -->
+        <ProgressBar
+            android:id="@+id/analysis_progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 分析结果 -->
+        <TextView
+            android:id="@+id/analysis_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:maxLines="6"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="正在获取识别结果..."
+            android:padding="8dp" />
+
+        <!-- 提示信息 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:text="5秒后自动关闭"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+    <!-- 底部提示信息 - 固定在底部 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:background="#88000000"
+            android:padding="10dp"
+            android:text="距离: -- cm"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/hint_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="唤醒词:  小黎小黎"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支持指令: 前面有什么 / 手里是什么 / 这是什么"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- 捕获帧预览 - 右上角小窗 (可选，用于调试) -->
+    <FrameLayout
+        android:id="@+id/capture_preview_container"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/status_bar"
+        android:layout_margin="16dp"
+        android:background="#80000000"
+        android:visibility="gone"
+        android:elevation="4dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/capture_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#CC000000"
+            android:textColor="#FFFFFF"
+            android:textSize="8sp"
+            android:text="预览"
+            android:gravity="center"
+            android:padding="2dp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

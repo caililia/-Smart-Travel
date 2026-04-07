@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="personal_page_padding">30dp</dimen>
+    <dimen name="user_info_padding">20dp</dimen>
+    <dimen name="avatar_text_margin">20dp</dimen>
+    <dimen name="user_phone_text_size">24sp</dimen>
+    <dimen name="login_status_text_size">22sp</dimen>
+    <dimen name="core_btn_text_size">22sp</dimen>
+    <dimen name="aux_btn_text_size">20sp</dimen>
+    <dimen name="status_margin_top">10dp</dimen>
+    <dimen name="core_btn_margin">20dp</dimen>
+    <dimen name="aux_btn_margin">16dp</dimen>
+</resources>

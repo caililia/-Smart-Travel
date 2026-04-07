@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable-v24/rounded_but2.xml" value="0.265625" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable-v24/rounded_edit.xml" value="0.265625" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/banner_gradient_overlay.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_category.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_exam_circle.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_cancelled.xml" value="0.10683760683760683" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_completed.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_completed_small.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_expired_small.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_learning.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_not_started.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/bg_status_pending.xml" value="0.10683760683760683" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/btn_circle_bg.xml" value="0.1765625" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/button_disabled.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/button_outline.xml" value="0.10854700854700855" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/button_primary.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/button_primary_small.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/category_circle_bg.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/feedback_icon_bg.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/ic_certificate.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/placeholder_course.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/placeholder_path.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/placeholder_practice.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/progress_bar_style.xml" value="0.21794871794871795" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/drawable/section_background.xml" value="0.265625" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_call.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_course_detail.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_feed_back.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_feed_back_detail.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_feedback.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_helping.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_login.xml" value="0.20989583333333334" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_media_video.xml" value="0.175" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_point.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_uni_app_web_view.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_user_info.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_video_call.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/activity_webview.xml" value="0.16" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/custom_video_view.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/dialog_exchange_confirm.xml" value="0.18691983122362868" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/feedback_item.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/fragment_community.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/fragment_growth.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/fragment_personal.xml" value="0.17863247863247864" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/fragment_training.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_category.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_category_text.xml" value="0.18691983122362868" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_certificate.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_exam_cert.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_help_record.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_hot_course.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_learning_path.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_medal.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_point_product.xml" value="0.18691983122362868" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_required_course.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_skill_practice.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/item_task.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/list_item.xml" value="0.20989583333333334" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/layout/placeholder_course.xml" value="0.2047008547008547" />
+        <entry key="..\:/AndroidProject/Volunteer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17863247863247864" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FA"
+    android:padding="20dp">
+
+    <!-- 通话状态 -->
+    <TextView
+        android:id="@+id/tv_call_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="准备中..."
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <!-- 通话时长 -->
+    <TextView
+        android:id="@+id/tv_call_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="00:00"
+        android:textColor="#333333"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- 通话控制按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:spacing="60dp">
+
+        <!-- 静音按钮 -->
+        <Button
+            android:id="@+id/btn_mute"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/silent1"
+            android:textSize="14sp" />
+
+        <!-- 挂断按钮 -->
+        <Button
+            android:id="@+id/btn_hang_up"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/callstop"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
