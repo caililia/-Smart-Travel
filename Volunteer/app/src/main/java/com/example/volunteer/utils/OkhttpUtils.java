@@ -68,57 +68,57 @@ public class OkhttpUtils {
 
 
     public static MediaType JSON = MediaType.parse("application/json;charset=utf-8");
-    public static final String APP_ID = "87b06c07cb7ce7271dff876cafec542c";
+    public static final String APP_ID = "";
 
     public static void request(String method, String url, RequestBody body, String token, Callback callback) {
         Request request = new Request.Builder().method(method, body).url(url).addHeader("Authorization", token).build();
         new OkHttpClient().newCall(request).enqueue(callback);
     }
 
-    public static void initRequest(final int id, String method, String url, RequestBody body, String token, final Handler handler) {
-        OkhttpUtils.request(method, url, body, token, new Callback() {
+    public static void initRequest(final int id, String method, String url, RequestBody body, String token, final Handler handler) {initRequest（最终int id，字符串方法，字符串url， RequestBody主体，字符串令牌，最终Handler   饲养员 Handler   饲养员） {
+        OkhttpUtils.request   请求   请求(method, url, body, token,    方法new Callback() {OkhttpUtils。request   请求(method   方法, url, body   身体   身体, token   令牌   令牌, new   新) Callback() {
             @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                Log.e("onFailure: ", e.getMessage());
+            public void onFailure(@NonNull Call call, @NonNull IOException e) {公共   令牌void   无效   身体 onFailure(@NonNull调用调用，@NonNull IOException) {
+                Log   日志.e("onFailure: ", e.getMessage());Log.e("onFailure: ", e.getMessage())；
             }
 
             @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-                assert response.body() != null;
-                String json = Objects.requireNonNull(response.body().string());
-                OkhttpUtils.sendMessage(json, id, handler);
+            public void onResponse(@NonNull Call call, @NonNull Response   响应 response) throws IOException {public   公共 void   无效 onResponse（@NonNull Call   呼叫 Call   呼叫, @NonNull Response   响应 Response   响应   响应   响应）抛出IOException {
+                assert response.body() != null;断言response.body   身体   身体() ！=零;
+                String json = Objects.requireNonNull(response.body().string());String   字符串 json = Objects.requireNonNull(response.body   身体().string())；
+                OkhttpUtils.sendMessage(json, id, handler);OkhttpUtils。sendMessage(json, id, handler   饲养员)；
             }
         });
     }
 
-    private static void sendMessage(String json, int id, Handler handler) {
+    private static void sendMessage(String json, int id, Handler handler) {sendMessage(String   字符串 json, int id, Handler   饲养员 Handler) {
         Message msg = new Message();
-        msg.what = id;
-        msg.obj = json;
-        handler.sendMessage(msg);
+        msg.what = id;   味精。What = id；
+        msg.obj = json;   味精。Obj = json；
+        handler.sendMessage(msg);handler.sendMessage(味精);
     }
 
-    public static RequestBody toBody(HashMap<String, Object> map) {
+    public static RequestBody toBody(HashMap<String, Object> map) {public   公共 static   静态 RequestBody toBody(HashMap<String   字符串, Object   对象> map   地图) {
         JSONObject jsonObject = new JSONObject(map);
-        return RequestBody.create(OkhttpUtils.JSON, jsonObject.toString());
+        return RequestBody.create(OkhttpUtils.JSON, jsonObject.toString());返回RequestBody.create   创建 (OkhttpUtils。JSON, jsonObject.toString ());
     }
 
-    public static <T> T toData(String json, Class<T> tClass) {
-        Gson gson = new Gson();
-        T t = gson.fromJson(json, tClass);
-        return t;
+    public static <T> T toData   数据,      数据,数据,(String json, Class<T> tClass) {public   公共 static   静态 <T> ttodata (String   字符串 json, Class   类<T> tClass) {
+        Gson gson = new Gson();   Gson = new   新 Gson()；
+        T t = gson.fromJson(json, tClass);T = gson.fromJson(json, tClass)；
+        return t;   返回t;
     }
     /**
      * 将gson数组转换为对应的Java对象列表
      * @param json gson格式的字符串数组
      * @param tClass 对象类型
-     * @param <T> 泛型
+     * @param <T> 泛型   * @param <T> 泛型
      * @return 对象列表
      */
-    public static <T> List<T> jsonToList(String json, Class<T[]> tClass) {
-        Gson gson = new Gson();
-        T[] array = gson.fromJson(json, tClass);
-        Type listType = new TypeToken<List<T>>() {}.getType();
-        return gson.fromJson(gson.toJson(array), listType);
+    public static <T> List<T> jsonToList(String json, Class<T[]> tClass) {public   公共 static   静态 <T> List   列表<T> jsonToList(String   字符串 json, Class   类<T[]> tClass) {
+        Gson gson = new Gson();   Gson = new   新 Gson()；
+        T[] array = gson.fromJson(json, tClass);T[] array   数组 = json . fromjson (json, tClass)；
+        Type listType = new TypeToken<List<T>>() {}.getType();Type listType = new   新 TypeToken<List   列表<T> () {}.getType()；
+        return gson.fromJson(gson.toJson(array), listType);返回gson.fromJson(gson.toJson(array), listType)；
     }
-}
+                                                                                    }
