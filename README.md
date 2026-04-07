@@ -36,11 +36,3 @@
 ![输入图片说明](imgimage2.png)
 
 其中，盲人端遵循“语音优先的非视觉交互（VUI）”原则，无复杂图形界面，所有操作通过语音指令、物理按键实现，反馈形式为语音播报和触觉震动，界面简洁，无视觉信息冗余；志愿者端遵循简洁高效、视觉清晰原则，接单大厅突出求助核心信息，操作按钮大且醒目，数据统计可视化展示，支持多形式内容交互；所有界面均符合无障碍设计规范，支持字体放大、高对比度、语音读屏，操作流程简化，避免多步骤复杂操作。
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
