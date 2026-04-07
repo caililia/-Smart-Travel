@@ -1,23 +1,23 @@
-package com.example.myapplication.manage;
+package   包 com.example.myapplication.manage;
 
-import android.util.Log;
-import androidx.annotation.NonNull;
-import okhttp3.*;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import   进口   进口android.util.Log; android.util.Log;
+import   进口进口androidx.annotation.NonNull; androidx.annotation.NonNull;
+import   进口 okhttp3.*;
+import   进口 org.json.JSONArray;
+import   进口进口org.json.JSONObject; org.json.JSONObject;
+import   进口进口java.io.IOException; java.io.IOException;
+import   进口 java.util.concurrent.TimeUnit;
 
-public class QwenManager {
+public class   类 QwenManager {
     // 替换为你自己的 API KEY
-    private static final String API_KEY = "sk-8f44bc740553475c9e78c987e695bf4f";
-    private static final String URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
-    private static final String TAG = "QwenManager";
+    private static   静态 final String   字符串 API_KEY = "";
+    private static   静态 final String   字符串 URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
+    private static   静态 final String   字符串 TAG = "QwenManager";
 
     private OkHttpClient client;
 
     // 核心提示词：教大模型如何控制你的APP
-    private static final String SYSTEM_PROMPT =
+    private static   静态 final String   字符串 SYSTEM_PROMPT =
             "你叫小黎，是一个安卓APP的语音助手。请根据用户的输入和[当前界面状态]，严格提取意图并返回JSON。\n" +
                     "不要返回markdown格式，只返回纯JSON字符串。\n\n" +
                     "===== 可用字段 =====\n" +
